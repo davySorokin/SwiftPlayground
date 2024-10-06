@@ -19,3 +19,5 @@ var firstGreeting = "Hello World!"
 let firstIsMyFirstGreeting = "Hello World! #2"
 firstGreeting = "Kirill"
 print(firstGreeting)
+
+// Continuing test from Mercari laptop.
