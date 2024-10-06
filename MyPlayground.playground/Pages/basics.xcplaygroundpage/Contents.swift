@@ -12,8 +12,8 @@ print(greeting)
 
 // Naming Conventions - Camel Case (always use)
 /*
- 'let' does allow for changing - non-dynamic
- 'var' allows for changing - dynamic
+ 'let' does allow for changing - non-dynamic (Sets a 'constant')
+ 'var' allows for changing - dynamic (Sets a 'variable')
  */
 var firstGreeting = "Hello World!"
 let firstIsMyFirstGreeting = "Hello World! #2"
