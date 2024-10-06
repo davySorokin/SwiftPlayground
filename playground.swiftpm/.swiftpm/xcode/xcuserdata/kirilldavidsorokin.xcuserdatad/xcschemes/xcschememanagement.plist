@@ -18,6 +18,27 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>directoryExercises (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>directoryExercises (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>directoryExercises (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>directoryExercises (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +48,31 @@
 		</dict>
 		<key>newFile (Playground) 1.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> main
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>newFile (Playground) 2.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> main
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>newFile (Playground).xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> main
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
