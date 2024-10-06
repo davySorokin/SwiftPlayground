@@ -34,6 +34,9 @@ let package = Package(
             ]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/DenverCoder1/github-readme-streak-stats", .branch("main"))
+    ],
     targets: [
         .executableTarget(
             name: "AppModule",
