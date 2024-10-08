@@ -47,3 +47,4 @@ let mysecondNum: Double = 1.0
 // Use CGFloat for UI
 let mythirdNum: CGFloat = 1.0
 print(mythirdNum)
+ 
