@@ -35,6 +35,8 @@ if userIsPremium != false {
 }
 if !userIsPremium {
     print("different NOT equals too.")
+} else {
+    print("different NOT equals too #2")
 }
 
 /*Set the 'userIsPremium' as a true boolean,
