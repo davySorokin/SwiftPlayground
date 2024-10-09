@@ -53,3 +53,9 @@ if likeCount > 5 {
 } else if likeCount == 5 {
     print("Like Count is equal to 5.")
 }
+
+if (likeCount || commentCount) >= 5 {
+    print("You're doing well.")
+} else {
+    print("You need to do better.")
+}
