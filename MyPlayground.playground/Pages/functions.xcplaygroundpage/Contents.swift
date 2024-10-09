@@ -63,12 +63,16 @@ func checkUserStatus() -> Bool {
 }
 */
 
+
+/* Create 2 functions, 1 returns 'true' or 'false'.
+ Whilst the other hold all of the details (metadata).
+ */
 func showFirstScreen() {
     var userDidCompleteOnboarding: Bool = false
     var userProfileIsCreated: Bool = true
-    checkUserStatus(didCompleteOnboard: BooluserDidCompleteOnboarding, profileIsCreated: BooluserProfileIsCreated)
+    checkUserStatus(didCompleteOnboard: userDidCompleteOnboarding, profileIsCreated: userProfileIsCreated)
     
-    if status == true {
+    if userProfileIsCreated && userDidCompleteOnboarding == true {
         print("SHOW HOME SCREEN")
     } else {
         print("SHOW ONBOARDING SCREEN")
