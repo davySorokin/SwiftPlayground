@@ -180,19 +180,17 @@ doSomethingElse3()
 let number1: Int = 5
 let number2: Int = 8
 
-// Function that returns an Integer.
 func calculateNumbers() -> Int {
     return number1 + number2
 }
 
-func calculateNumbers2(value1: number1, value2: number2) -> Int {
+func calculateNumbers(value1: Int, value2: Int) -> Int {
     return value1 + value2
 }
 
 let result1 = calculateNumbers()
-let result2 = calculateNumbers2(value1: number1, value2: <#T##number2#>)
+let result2 = calculateNumbers(value1: number1, value2: number2)
 
-// Variable that returns an Integer.
 var calculatedNumber: Int {
     return number1 + number2
 }
