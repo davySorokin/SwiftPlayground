@@ -6,6 +6,13 @@ let myBool: Bool = false
 // We don't know if there is a value, but if there is, it is a Boolean.
 var myOtherBool: Bool? = nil
 
+var first: String? = "kirill"
+var second: String? = "david"
+var third: String? = "sorokin"
+first = "Kirill"
+print(first)
+print(second)
+print(third)
 /*
 print(myOtherBool)
 myOtherBool = true
@@ -23,6 +30,23 @@ print(myOtherBool)
 // ---------------- nil coalescing operator ------------------
 let newValue: Bool? = myOtherBool
 
+let testBoolean: Bool = true
+print(testBoolean)
+
+var testBoolean1: Bool? = nil // Must be 'var' to change.
+print(testBoolean1)
+
+testBoolean1 = false
+print(testBoolean1)
+
+let testBoolean2: Bool = testBoolean1 ?? false
+print(testBoolean2)
+
+// Equals values of 'myOtherBool', if empty set to 'false'.
+let testingBool1: Bool = myOtherBool ?? false
+let testingBool: Bool? = nil
+let testing: Bool = testingBool ?? false
+print(testing)
 // Equal = Value of myOtherBool (if there is one), otherwise false.
 let newValue2: Bool = myOtherBool ?? false
 print(newValue2)
@@ -118,7 +142,9 @@ func checkIfUserIsPremium7() -> Bool {
 var userIsNew: Bool? = true // could be true
 var userDidCompleteOnboarding: Bool? = false //could be false
 var userFavouriteMovie: String? = nil // could be nil
-
+print(userIsNew)
+print(userDidCompleteOnboarding)
+print(userFavouriteMovie)
 /*
  --- NEW SYNTAX ---
  func checkIfUserIsSetUp() -> Bool {
@@ -245,9 +271,9 @@ func getUserTitle() -> String {
 
 func getUserData() {
     let userName: String? = getUserName()
-    // I will get the count is the username is NOT nil.
+    // I will get the count if the username is NOT nil.
     let count = userName?.count
-    // If you want it an ACTUAL Integer = default value of 0.
+    // If you want an ACTUAL Integer = default value of 0.
     let count2: Int = userName?.count ?? 0
     
     // I will get the count ALWAYS.
@@ -263,7 +289,6 @@ func getUserData() {
      This will crash the application is username is nil!*/
     let count4: Int = userName!.count
 }
-
 
 /* Safely unwrap an Optional
  1. nil coalscing
