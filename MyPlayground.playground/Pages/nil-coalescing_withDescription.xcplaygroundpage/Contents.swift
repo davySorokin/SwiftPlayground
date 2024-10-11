@@ -13,14 +13,14 @@ var userIsNew: Bool? = nil
 
 // -------------- Solution Options --------------
 // Nil-Coalescing with Description: If you want to provide a fallback description when myOption is nil:
-print("myOptional is: \(myOptionalBool?.description ?? "empty")")
+print("myOptionalBool is: \(myOptionalBool?.description ?? "empty")")
 // This way, if myOptionalBool is nil, it will print "nil".
 
 // If-Let Unwrapping: You can unwrap it first, then print its description:
 if let myBoolValue = myOptionalBool {
     print("myOptionalBool is: \(myBoolValue.description)")
 } else {
-    print("myOptional is: empty")
+    print("myOptionalBool is: contains nothing.")
 }
 
 // Force Unwrap (Only if you are sure it's not nil, otherwise it will crash):
