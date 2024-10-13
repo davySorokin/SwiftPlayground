@@ -34,8 +34,10 @@ func displayUserInfo(info: (name: String, isPremium: Bool, age: Int)) {
     print("Name is: \(info.name), Premium User: \(info.isPremium), Age is: \(info.age)")
 }
 
-let updatedUserInfo = (name: "Alice", isPremium: true, age: 30)
+let updatedUserInfo = (name: "Alice", isPremium: true, age: 30) // with mapping.
+let kirillData = ("Kirill", true, 26) // without mapping.
 displayUserInfo(info: updatedUserInfo)
+displayUserInfo(info: kirillData)
 
 
 // ----------- Why We Directly Use Tuples as Parameters?
